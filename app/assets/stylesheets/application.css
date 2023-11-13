@@ -25,14 +25,8 @@ h1 {
   font-family: 'Kaushan', cursive, sans-serif;
 }
 
-h3, span {
+h3 {
   display: block; /* 要素を縦に並べるための指定 */
-}
-
-div {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 10px; /* 投稿間の余白を設定する場合は任意の値を指定してください */
 }
 
 main {
@@ -53,6 +47,15 @@ main .switch{
   padding: 20px 30px;
   margin: 30 auto 0;
   text-align: left;
+}
+
+.actions {
+  white-space: nowrap; /* テキストを折り返さないようにする */
+}
+
+.actions a {
+  display: inline-block; /* ボタンをインラインブロック要素とする */
+  margin-right: 10px; /* ボタン間の間隔を任意の値に調整する */
 }
 
 .list-wrap {
