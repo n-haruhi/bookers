@@ -13,3 +13,78 @@
  *= require_tree .
  *= require_self
  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 10px 0;
+  font-family: 'Kaushan', cursive, sans-serif;
+}
+
+h3, span {
+  display: block; /* 要素を縦に並べるための指定 */
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px; /* 投稿間の余白を設定する場合は任意の値を指定してください */
+}
+
+main {
+  padding: 10px 20px;
+  margin: 30 auto 0;
+  line-height: 35px;
+  text-align: left;
+}
+
+main .text{
+  padding: 20px 40px;
+  margin: 30 auto 0;
+  text-align: left;
+}
+
+
+main .switch{
+  padding: 20px 30px;
+  margin: 30 auto 0;
+  text-align: left;
+}
+
+.list-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.list-box {
+  width: 200px;
+  height: 250px;
+  margin: 10px;
+  position: relative;
+}
+
+.flash-message {
+  border-radius: 5px;
+  padding: 16px 24px;
+  margin: 16px 0px;
+}
+
+.flash-message.success {
+  background-color: #bcdfff;
+  color: #0067C0;
+}
+
+.flash-message.update {
+  background-color: #bcdfff;
+  color: #0067C0;
+}
+
+.flash-message.destroy {
+  background-color: #bcdfff;
+  color: #0067C0;
+}
