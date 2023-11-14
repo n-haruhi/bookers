@@ -21,12 +21,15 @@
 }
 
 h1 {
-  padding: 10px 0;
+  margin: 5px 0;
+  padding: 10px;
+  background-color: #b0c4de;
   font-family: 'Kaushan', cursive, sans-serif;
 }
 
-h3 {
-  display: block; /* 要素を縦に並べるための指定 */
+h3  {
+  padding: 20px 5px 15px 20px;
+  display: inline; /* 要素を縦に並べるための指定 */
 }
 
 main {
@@ -43,10 +46,18 @@ main .text{
 }
 
 
-main .switch{
-  padding: 20px 30px;
-  margin: 30 auto 0;
+main .button {
+  padding: 0 50px;
   text-align: left;
+}
+
+.name {
+  text-align: center;
+}
+
+td {
+  margin: 0 40px;
+  padding: 2px 10px;
 }
 
 .actions {
